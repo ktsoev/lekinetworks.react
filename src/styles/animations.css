@@ -1,0 +1,134 @@
+/* ── Fade & Slide ──────────────────────────────────────────────────────────── */
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes fadeSlideUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeSlideDown {
+  from { opacity: 0; transform: translateY(-8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Shimmer (skeleton loader) ─────────────────────────────────────────────── */
+
+@keyframes shimmer {
+  0%   { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--bg-tertiary) 25%,
+    var(--bg-elevated)  50%,
+    var(--bg-tertiary) 75%
+  );
+  background-size: 800px 100%;
+  animation: shimmer 1.4s infinite linear;
+  border-radius: var(--radius-sm);
+}
+
+/* ── Spinner ───────────────────────────────────────────────────────────────── */
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ── Glow Pulse ────────────────────────────────────────────────────────────── */
+
+@keyframes glowPulse {
+  0%, 100% { box-shadow: 0 0 8px var(--accent-primary-glow); }
+  50%       { box-shadow: 0 0 20px var(--accent-primary-glow), 0 0 40px rgba(74, 232, 160, 0.15); }
+}
+
+/* ── Checkmark Draw ────────────────────────────────────────────────────────── */
+
+@keyframes checkmarkDraw {
+  from { stroke-dashoffset: 100; }
+  to   { stroke-dashoffset: 0; }
+}
+
+@keyframes checkmarkCircle {
+  from { stroke-dashoffset: 280; }
+  to   { stroke-dashoffset: 0; }
+}
+
+@keyframes scaleBounce {
+  0%   { transform: scale(0); }
+  60%  { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+/* ── Toast Slide In ────────────────────────────────────────────────────────── */
+
+@keyframes toastSlideIn {
+  from { opacity: 0; transform: translateX(100%); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes toastSlideOut {
+  from { opacity: 1; transform: translateX(0); }
+  to   { opacity: 0; transform: translateX(100%); }
+}
+
+/* ── Pulse (payment processing) ────────────────────────────────────────────── */
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.7; transform: scale(0.97); }
+}
+
+/* ── Modal ─────────────────────────────────────────────────────────────────── */
+
+@keyframes modalBackdropIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes modalContentIn {
+  from { opacity: 0; transform: translateY(16px) scale(0.98); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* ── Shake (invalid code) ──────────────────────────────────────────────────── */
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%       { transform: translateX(-8px); }
+  40%       { transform: translateX(8px); }
+  60%       { transform: translateX(-6px); }
+  80%       { transform: translateX(6px); }
+}
+
+/* ── Background Blob Drift ─────────────────────────────────────────────────── */
+
+@keyframes blobDrift1 {
+  0%, 100% { transform: translate(0,    0)    scale(1);    }
+  30%       { transform: translate(40px, -30px) scale(1.06); }
+  60%       { transform: translate(-20px, 20px) scale(0.94); }
+}
+
+@keyframes blobDrift2 {
+  0%, 100% { transform: translate(0,    0)    scale(1);    }
+  25%       { transform: translate(-35px, 25px) scale(1.04); }
+  70%       { transform: translate(25px, -15px) scale(0.97); }
+}
+
+@keyframes blobDrift3 {
+  0%, 100% { transform: translate(0, 0) scale(1);    }
+  40%       { transform: translate(20px, 30px) scale(1.08); }
+  80%       { transform: translate(-15px, -20px) scale(0.96); }
+}
+
+/* ── Dot grid entrance ─────────────────────────────────────────────────────── */
+
+@keyframes gridFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}

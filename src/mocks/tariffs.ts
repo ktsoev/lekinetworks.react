@@ -1,0 +1,48 @@
+import type { Tariff } from '../types'
+
+export const mockTariffs: Tariff[] = [
+	{
+		id: 'tariff_1m',
+		name: '1 Month',
+		durationDays: 30,
+		price: 4.99,
+		priceRub: 450,
+		currency: 'USD',
+		discount: null,
+		features: ['VLESS Protocol', 'Up to 3 Devices', 'Unlimited Traffic'],
+		popular: false,
+	},
+	{
+		id: 'tariff_3m',
+		name: '3 Months',
+		durationDays: 90,
+		price: 12.99,
+		priceRub: 1150,
+		currency: 'USD',
+		discount: 13,
+		features: ['VLESS Protocol', 'Up to 3 Devices', 'Unlimited Traffic'],
+		popular: true,
+	},
+	{
+		id: 'tariff_6m',
+		name: '6 Months',
+		durationDays: 180,
+		price: 23.99,
+		priceRub: 2150,
+		currency: 'USD',
+		discount: 20,
+		features: ['VLESS Protocol', 'Up to 3 Devices', 'Unlimited Traffic'],
+		popular: false,
+	},
+	{
+		id: 'tariff_12m',
+		name: '12 Months',
+		durationDays: 365,
+		price: 41.99,
+		priceRub: 3750,
+		currency: 'USD',
+		discount: 30,
+		features: ['VLESS Protocol', 'Up to 3 Devices', 'Unlimited Traffic'],
+		popular: false,
+	},
+]

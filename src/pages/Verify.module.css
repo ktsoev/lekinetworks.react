@@ -1,0 +1,54 @@
+.heading {
+  font-size: var(--text-2xl);
+  font-weight: var(--weight-bold);
+  text-align: center;
+  margin-bottom: var(--space-xs);
+}
+
+.sub {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.email {
+  color: var(--text-primary);
+  font-weight: var(--weight-medium);
+}
+
+.codeWrap {
+  margin-bottom: var(--space-xl);
+}
+
+.countdown {
+  text-align: center;
+  font-size: var(--text-sm);
+  color: var(--text-tertiary);
+  margin-top: var(--space-md);
+}
+
+.resend {
+  background: none;
+  border: none;
+  font-size: var(--text-sm);
+  color: var(--accent-primary);
+  cursor: pointer;
+  transition: color var(--transition-fast);
+}
+
+.resend:hover {
+  color: var(--accent-primary-hover);
+}
+
+.changeEmail {
+  display: block;
+  text-align: center;
+  font-size: var(--text-sm);
+  color: var(--text-tertiary);
+  margin-top: var(--space-lg);
+}
+
+.changeEmail:hover {
+  color: var(--text-secondary);
+}

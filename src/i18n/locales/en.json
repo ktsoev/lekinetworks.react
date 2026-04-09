@@ -1,0 +1,246 @@
+{
+	"common": {
+		"nav": {
+			"subscriptions": "Subscriptions",
+			"buy": "Buy",
+			"signOut": "Sign Out",
+			"signIn": "Sign In",
+			"dashboard": "Dashboard",
+			"home": "Home",
+			"backToHome": "← Back to home"
+		},
+		"actions": {
+			"continue": "Continue",
+			"back": "Back",
+			"cancel": "Cancel",
+			"manage": "Manage",
+			"extend": "Extend",
+			"copyLink": "Copy Link",
+			"openPanel": "Open Control Panel",
+			"getStarted": "Get Started",
+			"buySubscription": "Buy Subscription",
+			"pay": "Pay {{amount}}",
+			"viewSubscription": "View Subscription",
+			"goToDashboard": "Go to Dashboard",
+			"choosePlan": "Choose Plan",
+			"resendCode": "Resend code",
+			"useDifferentEmail": "Use a different email"
+		},
+		"status": {
+			"active": "Active",
+			"expired": "Expired",
+			"pending": "Pending"
+		},
+		"footer": {
+			"rights": "All rights reserved.",
+			"privacy": "Privacy",
+			"terms": "Terms",
+			"support": "Support"
+		},
+		"theme": {
+			"light": "Light",
+			"dark": "Dark",
+			"toggle": "Toggle theme"
+		},
+		"language": {
+			"en": "EN",
+			"ru": "RU"
+		}
+	},
+	"landing": {
+		"hero": {
+			"badge": "Powered by VLESS Protocol",
+			"title": "Fast, Private,",
+			"titleAccent": "Secure VPN",
+			"subtitle": "Enterprise-grade VLESS protocol. Up to 3 devices. Instant setup. No logs, no throttling — just pure speed and privacy.",
+			"seePricing": "See Pricing"
+		},
+		"features": {
+			"heading": "Why LEKI Networks?",
+			"vless": {
+				"title": "VLESS Protocol",
+				"desc": "Next-gen proxy protocol. Lightweight, fast, and practically undetectable. Works even in restrictive regions."
+			},
+			"devices": {
+				"title": "3 Devices",
+				"desc": "Connect up to 3 devices simultaneously — phone, laptop, tablet. One subscription, full coverage."
+			},
+			"instant": {
+				"title": "Instant Setup",
+				"desc": "Get your subscription link immediately after purchase. Import into any compatible app in seconds."
+			}
+		},
+		"pricing": {
+			"heading": "Simple Pricing"
+		},
+		"faq": {
+			"heading": "Frequently Asked Questions",
+			"q1": "What is VLESS?",
+			"a1": "VLESS is a lightweight, high-performance proxy protocol that is more efficient than traditional VPN protocols. It is designed to be fast, secure, and resistant to detection.",
+			"q2": "How many devices can I connect?",
+			"a2": "Each subscription allows up to 3 devices simultaneously. You can configure any combination of phones, laptops, tablets, or other devices.",
+			"q3": "What payment methods are accepted?",
+			"a3": "We accept card and bank transfers via YooKassa, cryptocurrency via 0xProcessing, and Telegram-based crypto payments via CryptoBot.",
+			"q4": "How do I connect after purchasing?",
+			"a4": "After purchase, you receive a unique subscription link. Open the subscription link from your dashboard, import the link into any compatible app specified in the subscription panel, and you are ready to go.",
+			"q5": "Can I extend my subscription?",
+			"a5": "Yes. From the subscription details page, click \"Extend Subscription\" to add more time to your current plan. Your existing token and configuration remain unchanged."
+		}
+	},
+	"auth": {
+		"login": {
+			"heading": "Welcome back",
+			"sub": "Enter your email to get started",
+			"emailLabel": "Email address",
+			"emailPlaceholder": "you@example.com",
+			"emailError": "Please enter a valid email address",
+			"submit": "Continue",
+			"codeSent": "Verification code sent!",
+			"sendFailed": "Failed to send code. Please try again."
+		},
+		"verify": {
+			"heading": "Check your email",
+			"sub": "We sent a 6-digit code to {{email}}",
+			"resendIn": "Resend code in {{seconds}}s",
+			"invalidCode": "Invalid code. Please try again.",
+			"invalidToast": "Invalid verification code",
+			"resendFailed": "Failed to resend code",
+			"newCodeSent": "New code sent!"
+		}
+	},
+	"dashboard": {
+		"title": "My Subscriptions",
+		"empty": {
+			"title": "No active subscriptions",
+			"desc": "Get your VPN subscription to stay private and secure."
+		},
+		"card": {
+			"plan": "{{name}} Plan",
+			"expires": "Expires {{date}} · {{days}}d left",
+			"expiredOn": "Expired {{date}}",
+			"devices": "{{connected}}/{{limit}} devices"
+		}
+	},
+	"purchase": {
+		"steps": {
+			"selectPlan": "Select Plan",
+			"paymentMethod": "Payment Method",
+			"confirm": "Confirm"
+		},
+		"step1": {
+			"heading": "Choose your plan",
+			"sub": "Select a subscription duration that works for you."
+		},
+		"step2": {
+			"heading": "Select payment method",
+			"sub": "Choose how you want to pay."
+		},
+		"step3": {
+			"heading": "Confirm your order",
+			"sub": "Review your order and complete payment."
+		},
+		"tariff": {
+			"popular": "Most Popular",
+			"save": "Save {{pct}}%",
+			"perDays": "/ {{days}}d",
+			"devices": "Up to {{count}} devices"
+		},
+		"summary": {
+			"title": "Order Summary",
+			"plan": "Plan",
+			"devices": "Devices",
+			"devicesValue": "Up to 4",
+			"paymentMethod": "Payment method",
+			"total": "Total"
+		},
+		"payFailed": "Payment failed. Please try again.",
+		"loadPlansFailed": "Could not load plans. Try again later.",
+		"methods": {
+			"yookassa": {
+				"name": "YooKassa",
+				"description": "Credit card or bank transfer"
+			},
+			"0xprocessing": {
+				"name": "0xProcessing",
+				"description": "Cryptocurrency payment"
+			},
+			"cryptobot": {
+				"name": "CryptoBot",
+				"description": "Pay via Telegram CryptoBot"
+			}
+		}
+	},
+	"payment": {
+		"processing": {
+			"title": "Processing your payment...",
+			"sub": "Please wait while we confirm your payment.",
+			"hint": "Do not close this page."
+		},
+		"success": {
+			"title": "Payment Successful!",
+			"plan": "Plan",
+			"expires": "Expires",
+			"devices": "Devices",
+			"devicesValue": "Up to {{limit}}",
+			"redirecting": "Redirecting to dashboard in {{seconds}}s…"
+		}
+	},
+	"renew": {
+		"nav": "Renew",
+		"heading": "Renew Subscription",
+		"sub": "Extend your active subscription with a new plan.",
+		"failed": "Renewal failed. Please try again.",
+		"selectSub": {
+			"heading": "Select Subscription",
+			"sub": "Choose which subscription you'd like to renew.",
+			"ariaLabel": "Renew {{plan}} subscription"
+		},
+		"empty": {
+			"title": "No active subscriptions",
+			"desc": "You don't have any active subscriptions to renew."
+		},
+		"info": {
+			"title": "Renewing",
+			"plan": "Current plan",
+			"status": "Status",
+			"expires": "Expires",
+			"devices": "Devices"
+		},
+		"sections": {
+			"duration": "Choose duration",
+			"payment": "Payment method",
+			"email": "Email (optional)"
+		},
+		"emailPlaceholder": "your@email.com",
+		"emailHint": "Receive payment confirmation at this address",
+		"cta": "Renew — Pay {{amount}}",
+		"ctaDisabled": "Select duration and payment method"
+	},
+	"subscription": {
+		"details": {
+			"status": "Status",
+			"daysLeft": "{{count}} day remaining",
+			"daysLeft_other": "{{count}} days remaining",
+			"expiresLabel": "Expires",
+			"devices": "Devices",
+			"panel": {
+				"title": "Subscription Control Panel",
+				"desc": "Configure your VPN connection, download configs, and manage devices."
+			},
+			"extend": {
+				"title": "Extend Subscription",
+				"desc": "Add more time to your current plan."
+			},
+			"metadata": {
+				"title": "Details",
+				"id": "Subscription ID",
+				"created": "Created",
+				"plan": "Plan"
+			}
+		},
+		"link": {
+			"copied": "Link copied to clipboard!",
+			"copyFailed": "Failed to copy link"
+		}
+	}
+}

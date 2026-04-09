@@ -1,0 +1,26 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  position: relative;
+  z-index: 1;
+}
+
+.body {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--space-xl) var(--space-lg);
+}
+
+@media (max-width: 1023px) {
+  .content {
+    padding: var(--space-lg) var(--space-md);
+    padding-bottom: calc(var(--space-lg) + 60px); /* mobile nav clearance */
+  }
+}

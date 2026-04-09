@@ -1,0 +1,58 @@
+.header {
+  height: 64px;
+  border-bottom: 1px solid var(--border-primary);
+  background: var(--bg-header);
+  backdrop-filter: blur(12px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.inner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  text-decoration: none;
+}
+
+.logoImg {
+  height: 32px;
+  width: auto;
+}
+
+.logoText {
+  font-size: var(--text-xl);
+  font-weight: var(--weight-bold);
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+.logoAccent {
+  color: var(--accent-primary);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.userEmail {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  padding: 6px var(--space-sm);
+}
+
+@media (max-width: 640px) {
+  .userEmail { display: none; }
+}

@@ -1,0 +1,36 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semibold);
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.active {
+  background: rgba(74, 232, 160, 0.15);
+  color: var(--status-active);
+}
+.active .dot { background: var(--status-active); }
+
+.expired {
+  background: rgba(240, 104, 104, 0.15);
+  color: var(--status-expired);
+}
+.expired .dot { background: var(--status-expired); }
+
+.pending {
+  background: rgba(240, 200, 72, 0.15);
+  color: var(--status-pending);
+}
+.pending .dot { background: var(--status-pending); }
