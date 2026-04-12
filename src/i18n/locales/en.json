@@ -149,7 +149,7 @@
 			"title": "Order Summary",
 			"plan": "Plan",
 			"devices": "Devices",
-			"devicesValue": "Up to 4",
+			"devicesValue": "Up to 3",
 			"paymentMethod": "Payment method",
 			"total": "Total"
 		},

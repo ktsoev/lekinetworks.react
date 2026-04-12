@@ -149,7 +149,7 @@
 			"title": "Состав заказа",
 			"plan": "Тариф",
 			"devices": "Устройства",
-			"devicesValue": "До 4",
+			"devicesValue": "До 3",
 			"paymentMethod": "Способ оплаты",
 			"total": "Итого"
 		},
