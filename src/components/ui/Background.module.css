@@ -5,16 +5,16 @@
   overflow: hidden;
   pointer-events: none;
   background-image:
-    linear-gradient(rgba(0, 229, 255, 0.028) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 229, 255, 0.028) 1px, transparent 1px);
+    linear-gradient(rgba(118, 196, 66, 0.028) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(118, 196, 66, 0.028) 1px, transparent 1px);
   background-size: 52px 52px;
   animation: gridFadeIn 1s ease;
 }
 
 [data-theme="light"] .root {
   background-image:
-    linear-gradient(rgba(0, 122, 204, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 122, 204, 0.04) 1px, transparent 1px);
+    linear-gradient(rgba(74, 140, 28, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(74, 140, 28, 0.04) 1px, transparent 1px);
 }
 
 /* ── Orbs ────────────────────────────────────────────────────────────────── */
@@ -28,7 +28,7 @@
 .orb1 {
   width: 700px;
   height: 700px;
-  background: radial-gradient(circle, rgba(0, 229, 255, 0.055) 0%, transparent 68%);
+  background: radial-gradient(circle, rgba(118, 196, 66, 0.055) 0%, transparent 68%);
   top: -260px;
   right: -200px;
 }

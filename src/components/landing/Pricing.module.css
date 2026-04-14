@@ -55,7 +55,7 @@
 }
 
 .card.popular {
-  background: rgba(0, 229, 255, 0.04);
+  background: rgba(118, 196, 66, 0.04);
 }
 
 .card.popular::before {
@@ -128,7 +128,7 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: var(--accent-primary);
-  border: 1px solid rgba(0, 229, 255, 0.25);
+  border: 1px solid rgba(118, 196, 66, 0.25);
   padding: 3px 10px;
   margin-bottom: 12px;
 }

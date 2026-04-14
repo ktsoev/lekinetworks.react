@@ -13,11 +13,11 @@
   --bg-card-hover:   #141414;
   --bg-elevated:     #161616;
 
-  /* ── Accent — LEKI Cyan + Purple ─────────────────────────── */
-  --accent-primary:        #00e5ff;
-  --accent-primary-hover:  #00ccee;
-  --accent-primary-muted:  rgba(0, 229, 255, 0.15);
-  --accent-primary-glow:   rgba(0, 229, 255, 0.25);
+  /* ── Accent — LEKI Lime + Purple ─────────────────────────── */
+  --accent-primary:        #76c442;
+  --accent-primary-hover:  #68b038;
+  --accent-primary-muted:  rgba(118, 196, 66, 0.15);
+  --accent-primary-glow:   rgba(118, 196, 66, 0.25);
   --accent-secondary:      #7b2fff;
   --accent-secondary-muted: rgba(123, 47, 255, 0.15);
   --accent-secondary-glow:  rgba(123, 47, 255, 0.2);
@@ -29,14 +29,14 @@
   --text-inverse:   #000000;
 
   /* ── Status ──────────────────────────────────────────────── */
-  --status-active:  #00e5ff;
+  --status-active:  #76c442;
   --status-expired: #F06868;
   --status-pending: #F0C848;
 
   /* ── Borders ─────────────────────────────────────────────── */
-  --border-primary: rgba(0, 229, 255, 0.12);
-  --border-hover:   rgba(0, 229, 255, 0.25);
-  --border-accent:  rgba(0, 229, 255, 0.5);
+  --border-primary: rgba(118, 196, 66, 0.12);
+  --border-hover:   rgba(118, 196, 66, 0.25);
+  --border-accent:  rgba(118, 196, 66, 0.5);
 
   /* ── Overlay ─────────────────────────────────────────────── */
   --overlay: rgba(0, 0, 0, 0.6);
@@ -95,7 +95,7 @@
   --transition-slow: 400ms ease;
 
   /* ── Background blobs ────────────────────────────────────── */
-  --blob-primary:   rgba(0, 229, 255, 0.12);
+  --blob-primary:   rgba(118, 196, 66, 0.12);
   --blob-secondary: rgba(123, 47, 255, 0.1);
   --dot-color:      rgba(255, 255, 255, 0.04);
 
@@ -117,11 +117,11 @@
   --bg-card-hover:   #F8F8FF;
   --bg-elevated:     #FFFFFF;
 
-  /* ── Accent — LEKI Cyan + Purple (light) ─────────────────── */
-  --accent-primary:        #007acc;
-  --accent-primary-hover:  #006ab8;
-  --accent-primary-muted:  rgba(0, 122, 204, 0.12);
-  --accent-primary-glow:   rgba(0, 122, 204, 0.2);
+  /* ── Accent — LEKI Lime + Purple (light) ─────────────────── */
+  --accent-primary:        #4a8c1c;
+  --accent-primary-hover:  #3d7817;
+  --accent-primary-muted:  rgba(74, 140, 28, 0.12);
+  --accent-primary-glow:   rgba(74, 140, 28, 0.2);
   --accent-secondary:      #6a1fd4;
   --accent-secondary-muted: rgba(106, 31, 212, 0.1);
   --accent-secondary-glow:  rgba(106, 31, 212, 0.15);
@@ -133,14 +133,14 @@
   --text-inverse:   #FFFFFF;
 
   /* ── Status ──────────────────────────────────────────────── */
-  --status-active:  #007acc;
+  --status-active:  #4a8c1c;
   --status-expired: #E05555;
   --status-pending: #D4A820;
 
   /* ── Borders ─────────────────────────────────────────────── */
   --border-primary: rgba(0, 0, 0, 0.08);
   --border-hover:   rgba(0, 0, 0, 0.14);
-  --border-accent:  rgba(0, 122, 204, 0.35);
+  --border-accent:  rgba(74, 140, 28, 0.35);
 
   /* ── Overlay ─────────────────────────────────────────────── */
   --overlay: rgba(0, 0, 0, 0.45);
@@ -153,7 +153,7 @@
   --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.06), 0 0 0 1px var(--border-primary);
 
   /* ── Background blobs ────────────────────────────────────── */
-  --blob-primary:   rgba(0, 122, 204, 0.1);
+  --blob-primary:   rgba(74, 140, 28, 0.1);
   --blob-secondary: rgba(106, 31, 212, 0.08);
   --dot-color:      rgba(0, 0, 0, 0.04);
 
