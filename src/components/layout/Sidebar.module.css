@@ -79,6 +79,31 @@
   flex: 1;
 }
 
+.support {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  width: 100%;
+  padding: 10px var(--space-sm);
+  border: 1px solid rgba(0, 229, 255, 0.3);
+  border-radius: 0;
+  font-size: 11px;
+  font-weight: var(--weight-semibold);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--accent-primary);
+  background: rgba(0, 229, 255, 0.05);
+  text-decoration: none;
+  cursor: pointer;
+  transition: color var(--transition-fast), border-color var(--transition-fast), background var(--transition-fast);
+  margin-bottom: 2px;
+}
+
+.support:hover {
+  background: rgba(0, 229, 255, 0.1);
+  border-color: rgba(0, 229, 255, 0.5);
+}
+
 .signOut {
   display: flex;
   align-items: center;

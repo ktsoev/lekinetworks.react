@@ -49,6 +49,13 @@ export function MobileNav() {
         {t('renew.nav')}
       </NavLink>
 
+      <a href="mailto:leki@lekinetworks.ru" className={styles.item}>
+        <svg className={styles.icon} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8}>
+          <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+        {t('common.footer.support')}
+      </a>
+
       <button className={styles.item} onClick={() => logout()}>
         <svg className={styles.icon} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8}>
           <path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4M16 17l5-5-5-5M21 12H9" strokeLinecap="round" strokeLinejoin="round" />

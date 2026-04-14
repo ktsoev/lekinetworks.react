@@ -14,7 +14,7 @@ export function Footer() {
         <nav className={styles.links}>
           <a href="#" className={styles.link}>{t('common.footer.privacy')}</a>
           <a href="#" className={styles.link}>{t('common.footer.terms')}</a>
-          <a href="#" className={styles.link}>{t('common.footer.support')}</a>
+          <a href="mailto:leki@lekinetworks.ru" className={styles.link}>{t('common.footer.support')}</a>
         </nav>
         <p className={styles.copy}>© {new Date().getFullYear()} LEKI</p>
       </div>
