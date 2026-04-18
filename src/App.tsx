@@ -12,12 +12,12 @@ import { queryClient } from './queryClient';
 
 export default function App() {
   const [setLoading] = useState(true);
-//  const [loading, setLoading] = useState(true);
+/*  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 1000);
     return () => clearTimeout(timer);
-  }, []);
+  }, []);*/
 
   return (
     <QueryClientProvider client={queryClient}>
