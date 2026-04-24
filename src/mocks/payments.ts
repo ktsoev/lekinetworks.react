@@ -22,16 +22,16 @@ export const paymentMethods: PaymentMethodInfo[] = [
     description: 'Credit card or bank transfer',
     icon: 'yookassa',
   },
-  // {
-  //   id: '0xprocessing',
-  //   name: '0xProcessing',
-  //   description: 'Cryptocurrency payment',
-  //   icon: 'crypto',
-  // },
-  // {
-  //   id: 'cryptobot',
-  //   name: 'CryptoBot',
-  //   description: 'Pay via Telegram CryptoBot',
-  //   icon: 'telegram',
-  // },
+   {
+     id: '0xprocessing',
+     name: '0xProcessing',
+     description: 'Cryptocurrency payment',
+     icon: 'crypto',
+   },
+   {
+     id: 'cryptobot',
+     name: 'CryptoBot',
+     description: 'Pay via Telegram CryptoBot',
+     icon: 'telegram',
+   },
 ];

@@ -5,10 +5,10 @@ function checkoutPath(method: PaymentMethod): string {
 	switch (method) {
 		case 'yookassa':
 			return '/site/payment/checkout/yookassa'
-		// case 'cryptobot':
-		// 	return '/site/payment/checkout/cryptobot'
-		// case '0xprocessing':
-		// 	return '/site/payment/checkout/oxprocessing'
+		case 'cryptobot':
+			return '/site/payment/checkout/cryptobot'
+		case '0xprocessing':
+			return '/site/payment/checkout/oxprocessing'
 		default: {
 			const _exhaustive: never = method
 			return _exhaustive

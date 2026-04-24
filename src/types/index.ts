@@ -39,7 +39,7 @@ export interface Subscription {
 // ─── Payment ─────────────────────────────────────────────────────────────────
 
 export type PaymentStatus = 'pending' | 'completed' | 'failed'
-export type PaymentMethod = 'yookassa' // | '0xprocessing' | 'cryptobot'
+export type PaymentMethod = 'yookassa' | '0xprocessing' | 'cryptobot'
 
 export interface Payment {
 	id: string
