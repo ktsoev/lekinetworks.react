@@ -165,6 +165,14 @@
 			"yookassa": {
 				"name": "ЮKassa",
 				"description": "СБП или банковской картой"
+			},
+			"0xprocessing": {
+				"name": "0xProcessing",
+				"description": "Оплата криптовалютой"
+			},
+			"cryptobot": {
+				"name": "CryptoBot",
+				"description": "Оплата через Telegram CryptoBot"
 			}
 		}
 	},

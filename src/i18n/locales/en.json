@@ -165,6 +165,14 @@
 			"yookassa": {
 				"name": "YooKassa",
 				"description": "Credit card or bank transfer"
+			},
+			"0xprocessing": {
+				"name": "0xProcessing",
+				"description": "Pay with cryptocurrency"
+			},
+			"cryptobot": {
+				"name": "CryptoBot",
+				"description": "Pay via Telegram CryptoBot"
 			}
 		}
 	},
